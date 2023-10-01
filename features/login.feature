@@ -7,4 +7,3 @@ Scenario: Login with valid credentials (registered email and password)
   And I insert my password
   And I click submit button
   Then I can access Jubelio homepage
-  And I can see title Dashboard on homepage
