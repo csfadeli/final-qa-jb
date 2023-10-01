@@ -3,11 +3,11 @@ Given('I go to {string}') do |url|
 end
   
 When('I insert my email') do
-  fill_in 'email', with:'latihan.qa@gmail.com'
+  fill_in 'email', with:'qa.rakamin.jubelio@gmail.com'
 end
   
 And('I insert my password') do
-  fill_in 'password', with:'Halo123!'
+  fill_in 'password', with:'Jubelio123!'
 end
   
 And('I click submit button') do 
